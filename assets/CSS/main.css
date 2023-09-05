@@ -666,13 +666,23 @@ img{
     }
     .nav-close,
     .nav-toggle{
-        display: inline-flex;
+        display: block;
+        height: auto;
     }
     .section{
         padding: 5.5rem 0 1rem;
     }
     .home{
         padding: 5.5rem 0 1rem;
+    }
+    .home-data{
+        text-align: center;
+    }
+    .home-img{
+        text-align: center;
+    }
+    .mobile-graphic{
+        text-align: center;
     }
     .footer-container,
     .contact-container,
@@ -703,8 +713,14 @@ img{
     }
 }
 @media screen and (max-width: 576px){
+    body{
+        margin: 0;
+    }
     .footer-subscribe{
         width: initial;
+    }
+    .feature-inside{
+        text-align: center;
     }
 }
 @media screen and (max-width: 392px){
